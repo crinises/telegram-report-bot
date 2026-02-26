@@ -17,8 +17,8 @@ from reportlab.pdfbase.ttfonts import TTFont
 
 load_dotenv()
 
-pdfmetrics.registerFont(TTFont("Arial", "C:/Windows/Fonts/arial.ttf"))
-pdfmetrics.registerFont(TTFont("Arial-Bold", "C:/Windows/Fonts/arialbd.ttf"))
+pdfmetrics.registerFont(TTFont("Arial", "fonts/arial.ttf"))
+pdfmetrics.registerFont(TTFont("Arial-Bold", "fonts/arialbd.ttf"))
 
 FONT = "Arial"
 FONT_BOLD = "Arial-Bold"
